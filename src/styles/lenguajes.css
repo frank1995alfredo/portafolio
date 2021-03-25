@@ -1,0 +1,46 @@
+@import url("https://font.googleapis.com/css?family=Roboto");
+
+body{
+    background-color:   #fff;
+}
+
+.progress-title{
+  width: 100%;
+  height: auto;
+}
+
+.progress-title h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+.progress{
+    height: 20px;
+    margin-bottom: 40px;
+    overflow: visible;
+    /*position: relative;*/
+}
+
+.progress .progress-bar{
+    animation: animate-positive 2s;
+}
+
+@-webkit-keyframes animate-positive {
+    0%{
+        width: 0;
+    }
+}
+
+@keyframes animate-positive {
+    0%{
+        width: 0;
+    }
+}
+
+
+.line{
+    background-color: tomato;
+    border-radius: 20px;
+    
+}

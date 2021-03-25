@@ -1,0 +1,9 @@
+.main-footer {
+    color: white;
+    background-color: #953939;
+    padding-top: 3em;
+    position: revert;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+}
